@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'AvenirLTStd-Medium';
+    src: url('../fonts/AvenirLTStd-Medium.otf');
+}
+
+@font-face {
+    font-family: 'AvenirLTStd-Light';
+    src: url('../fonts/AvenirLTStd-Light.otf');
+}
+
+@font-face {
+    font-family: 'AvenirLTStd-Heavy';
+    src: url('../fonts/AvenirLTStd-Heavy.otf');
+}
+
+@font-face {
+    font-family: 'AvenirNextLTPro-It';
+    src: url('../fonts/AvenirNextLTPro-It.otf');
+}
+
+@font-face {
+    font-family: 'AvenirNextLTPro-Regular';
+    src: url('../fonts/AvenirNextLTPro-Regular.otf');
+}
+
+@font-face {
+    font-family: 'SabonLTStd-BoldItalic';
+    src: url('../fonts/SabonLTStd-BoldItalic.otf');
+}

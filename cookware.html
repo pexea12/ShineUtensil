@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cookware</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/ware.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-fixed-top">
+            <button type="button" class="navbar-toggle collapse" id="button-menu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <div id="logo">
+                <a href="#"><img src="./images/logo.png" alt="logo"></a>
+            </div> <!-- #logo -->
+
+            <div id="count">
+                <span class="badge">1</span>
+            </div>
+        </nav>
+
+        <div id="add-to-cart">
+            <button type="button" class="button-color">Color &#9660;</button>
+            <button type="button" class="button-add-to-cart">Add to Cart</button>
+        </div> <!-- #add-to-cart -->
+
+        <div id="checkout">
+            <ul id="list-checkout">
+                <li>
+                    <a href="#" class="close">&times;</a>
+                    <img src="./images/pan.jpg" alt="PAN" class="img-responsive">
+                    <h3>Nonstick Square Grill Pan</h3>
+                    <h4>$ 200.00</h4>
+                </li>
+            </ul> <!-- #list-checkout -->
+            <button type="button" id="button-checkout">Checkout</button>
+        </div> <!-- #checkout -->
+
+        <div id="left-menu">
+            <br><hr />
+            <h3>Menu</h3>
+            <ul id="main-menu">
+                <li><a href="homepage.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">&#9660; Categories</a>
+                    <ul class="sub-menu">
+                        <li class="active"><a href="#.html">Cookware</a></li>
+                        <li><a href="bakeware.html">Bakeware</a></li>
+                        <li><a href="kitchenware.html">Kitchenware</a></li>
+                        <li><a href="flatware.html">Flatware</a></li>
+                    </ul>
+                </li> <!-- .dropdown -->
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <ul class="social-buttons">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    </ul> <!-- .social-buttons -->
+                </li>
+            </ul> <!-- #main-menu -->
+        </div> <!-- #left-menu -->
+
+        <div id="background">
+            <img src="./images/cw-header.jpg" alt="background" class="img-responsive">
+            <div id="header-text">
+                <h1>Cookware</h1>
+                <p>Its perforated design brings food in contact with the flame for delicious smoky flavor without losing ingredients to the fire. Sloped sides promote effortless tossing and easy cleanup</p>
+            </div> <!-- #header-text -->
+            <i class="fa fa-5x fa-caret-down switch"></i>
+        </div> <!-- #background -->
+    </header>
+
+
+
+    <div class="container">
+        <div id="list" class="row">
+            <div class="col-md-4 col-sm-4 col-xs-6">
+                <img src="./images/cw-dutchoven.jpg" alt="Dutch Oven" class="img-responsive">
+                <h5>Dutch Oven</h5>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6">
+                <img src="./images/cw-cookwaresets.jpg" alt="Cookware sets" class="img-responsive">
+                <h5>Cookware sets</h5>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6">
+                <img src="./images/cw-frypan.jpg" alt="Fry pan" class="img-responsive">
+                <h5>Fry pan</h5>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6">
+                <img src="./images/cw-braiser.jpg" alt="Braiser" class="img-responsive">
+                <h5>Braiser</h5>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6">
+                <img src="./images/cw-pressureoven.jpg" alt="Pressure oven" class="img-responsive">
+                <h5>Pressure oven</h5>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6">
+                <img src="./images/cw-grillpan.jpg" alt="Grill pan" class="img-responsive">
+                <h5>Grill pan</h5>
+            </div>
+        </div>
+    </div> <!-- .container -->
+
+    <footer>
+        <div id="email">
+            <h2>Join Out Newsletter</h2>
+            <form>
+                <input type="text" placeholder="Your E-mail Here"><br>
+                <button class="btn btn-succes">Submit</button>
+            </form>
+        </div> <!-- #email -->
+
+        <div id="address">
+            <h3 class="title">Shine Utensil</h3>
+            <h4>9 Wall St.</h4>
+            <h4>Hanoi</h4>
+            <h4>Vietnam</h4>
+        </div> <!-- #address -->
+
+        <div id="contact">
+            <h4>shineutensil@gmail.com</h4>
+            <h4>+84 123 456 789</h4>
+        </div> <!-- #contact -->
+    </footer>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/header.js"></script>
+</body>
+
+</html>

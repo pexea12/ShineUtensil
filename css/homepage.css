@@ -1,0 +1,32 @@
+/* { LIST */
+#list {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#list > * {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#list h5 {
+    font-family: 'AvenirLTStd-Heavy', sans-serif;
+    text-align: right;
+    color: rgb(176, 176, 176);
+    font-size: 12px;
+    margin-bottom: 17px;
+}
+
+#list h4 {
+    font-family: 'AvenirLTStd-Heavy', sans-serif;
+    letter-spacing: 1px;
+    font-size: 12px;
+    margin-top: 22px;
+}
+
+#list h6 {
+    font-family: 'AvenirNextLTPro-Regular', sans-serif;
+    font-size: 12px;
+    margin-top: 11px;
+}
+/* } LIST */

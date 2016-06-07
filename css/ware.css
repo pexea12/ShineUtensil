@@ -1,0 +1,70 @@
+.sub-menu {
+    display: block;
+}
+
+#header-text {
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    color: white;
+    text-align: center;
+    width: 60%;
+    height: 40%;
+}
+
+#header-text h1 {
+    font-family: "SabonLTStd-BoldItalic", sans-serif;
+    font-size: 50px;
+}
+
+#header-text p {
+    font-family: "AvenirLTStd-Heavy", sans-serif;
+    text-transform: none;
+    font-size: 16px;
+}
+
+#background i {
+    position: absolute;
+    left: 0; right: 0;
+    width: 5%;
+    bottom: 3%;
+    margin: auto;
+    color: white;
+}
+
+#list > div {
+    position: relative;
+    margin-top: 30px;
+}
+
+
+#list h5 {
+    font-family: "AvenirLTStd-Light", sans-serif;
+    text-transform: capitalize;
+    font-size: 22px;
+    color: white;
+    letter-spacing: 1px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 10%;
+}
+
+@media screen and (max-width: 500px) {
+    #header-text {
+        margin-top: 10px;
+        width: 80%;
+    }
+
+    #header-text h1 {
+        font-size: 20px;
+    }
+
+    #header-text p {
+        font-size: 10px;
+    }
+
+    #list h5 {
+        font-size: 12px;
+    }
+}

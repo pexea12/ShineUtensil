@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+	<link rel="stylesheet" href="./css/product.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-fixed-top">
+			<button type="button" class="navbar-toggle collapse" id="button-menu">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+			<div id="logo">
+				<a href="#"><img src="./images/logo.png" alt="logo"></a>
+			</div> <!-- #logo -->
+
+			<div id="count">
+				<span class="badge">1</span>
+			</div>
+		</nav>
+
+		<div id="add-to-cart">
+			<button type="button" class="button-color">Color &#9660;</button>
+			<button type="button" class="button-add-to-cart">Add to Cart</button>
+		</div> <!-- #add-to-cart -->
+
+		<div id="checkout">
+			<ul id="list-checkout">
+				<li>
+					<a href="#" class="close">&times;</a>
+					<img src="./images/pan.jpg" alt="PAN" class="img-responsive">
+					<h3>Nonstick Square Grill Pan</h3>
+					<h4>$ 200.00</h4>
+				</li>
+			</ul> <!-- #list-checkout -->
+			<button type="button" id="button-checkout">Checkout</button>
+		</div> <!-- #checkout -->
+
+		<div id="left-menu">
+			<br><hr />
+			<h3>Menu</h3>
+			<ul id="main-menu">
+				<li><a href="homepage.html">Home</a></li>
+				<li class="dropdown">
+					<a href="#">&#9660; Categories</a>
+					<ul class="sub-menu">
+						<li><a href="cookware.html">Cookware</a></li>
+						<li class="active"><a href="#">Bakeware</a></li>
+						<li><a href="kitchenware.html">Kitchenware</a></li>
+						<li><a href="flatware.html">Flatware</a></li>
+					</ul>
+				</li> <!-- .dropdown -->
+				<li><a href="about-us.html">About Us</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li>
+					<ul class="social-buttons">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					</ul> <!-- .social-buttons -->
+				</li>
+			</ul> <!-- #main-menu -->
+		</div> <!-- #left-menu -->
+	</header>
+
+
+	<div class="container" id="main">
+		<div class="row">
+			<div class="col-md-6 col-xs-12">
+				<img src="./images/grill.jpg" alt="Square Skillet Grill" class="img-responsive">
+			</div>
+			<div class="col-sm-6 col-xs-12">
+				<h2>Square Skillet Grill</h2>
+				<div class="row">
+					<div class="col-xs-6">
+						<div class="dropdown">
+							<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+								Quantity <i class="fa fa-caret-down"></i>
+							</button>
+							<ul class="dropdown-menu">
+								<li><a href="#">0</a></li>
+								<li><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+							</ul> <!-- .dropdown-menu -->
+						</div> <!-- .dropdown -->
+					</div> <!-- .col-xs-6 -->
+					<div class="col-xs-3">
+						<h4>$195</h4>
+					</div>
+				</div> <!-- .row -->
+
+				<p> From savory vegetables to mouthwatering steak, chicken and shrimp, the square Skillet Grill gives all the delicous flavor of an outdoor grill, then presents foods beautifully at the table. High ridges allow excess fat and grease to drain, and spouts on thwo sides allow for drip-free pours.</p>
+			</div>
+		</div> <!-- .row -->
+
+        <div class="button">
+            <button type="button" class="button-color">Color <i class="fa fa-caret-down"></i></button>
+        	<button type="button" class="button-add-to-cart">Add To Card</button>
+    	</div>
+	</div> <!-- .container #main -->
+
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+    <script src="./js/header.js"></script>
+</body>
+</html>

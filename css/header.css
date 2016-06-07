@@ -1,0 +1,229 @@
+body {
+    background-color: rgb(225, 225, 225);
+    text-transform: uppercase;
+    font-family: 'AvenirLTStd-Medium', sans-serif;
+    font-size: 12px;
+}
+
+/* { HEADER */
+header {
+    background-color: white;
+    vertical-align: middle;
+}
+
+    /* { NAV-BAR */
+nav {
+    background-color: white;
+    border-bottom: 1px solid rgb(225, 225, 225) !important;
+    margin-bottom: 0px !important;
+    width: 100%;
+
+}
+
+#button-menu {
+    display: block !important;
+    border-style: none;
+    position: absolute;
+    left: 3%;
+    top: 10%;
+}
+
+.icon-bar {
+    background-color: black;
+}
+
+#logo img {
+    margin: 5px auto;
+    display: block;
+    max-height: 48px;
+}
+
+#count {
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+    top: 35%;
+}
+
+#count span {
+    background-color: black;
+    height: 50%;
+}
+
+    /* } NAV-BAR */
+
+#add-to-cart button, #checkout button {
+    text-transform: uppercase;
+    font-family: 'AvenirNextLTPro-It', sans-serif;
+    border-style: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#left-menu, #add-to-cart, #checkout {
+    width: 325px;
+    position: fixed;
+    z-index: 10;
+    display: none;
+    overflow: auto;
+}
+
+@media screen and (min-height: 780px) {
+    #checkout, #left-menu, #add-to-cart {
+        height: 690px;
+    }
+}
+
+@media screen and (max-height: 780px) {
+    #checkout, #left-menu, #add-to-cart {
+        height: 90%;
+    }
+}
+
+    /* { ADD-TO-CART */
+#add-to-cart {
+    background-color: white;
+    right: 0;
+}
+
+#add-to-cart button {
+    background-color: white;
+    letter-spacing: 2px;
+    font-size: 12px;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+}
+
+.button-color {
+    left: 0;
+    border-right: 2px solid black !important;
+}
+
+.button-add-to-cart {
+    right: 0;
+}
+    /* } ADD-TO-CART */
+
+    /* { CHECKOUT */
+#checkout {
+    right: 0;
+    background-color: white;
+}
+
+#list-checkout {
+    list-style: none;
+}
+
+#list-checkout li {
+    margin-left: -30px;
+}
+
+#list-checkout li h3 {
+    padding-top: 10px;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+#list-checkout li h4 {
+    font-size: 12px;
+    font-family: 'AvenirLTStd-Heavy', sans-serif;
+}
+
+#list-checkout img {
+    float: left;
+    margin-right: 10px;
+}
+
+#list-checkout a {
+    margin-right: 10px;
+}
+
+#button-checkout {
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+    /* } CHECKOUT */
+
+    /* { LEFT-MENU */
+#left-menu {
+    background-color: black;
+    padding-left: 40px;
+}
+
+#left-menu hr {
+    margin-top: 60px;
+    border-color: white;
+    width: 170px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+}
+
+#left-menu h3 {
+    font-family: "AvenirLTStd-Medium", sans-serif;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+#main-menu {
+    list-style: none;
+    margin-top: 65px;
+}
+
+#main-menu > li {
+    margin-bottom: 45px;
+    margin-left: -40px;
+}
+
+#main-menu a {
+    color: rgb(176, 176, 176);
+    letter-spacing: 2px;
+}
+
+#main-menu a:hover, #main-menu a:active, .active > a {
+    text-decoration: none;
+    color: white !important;
+}
+
+.sub-menu {
+    list-style: none;
+    margin-top: 20px;
+    display: none;
+}
+
+.sub-menu li {
+    margin-bottom: 15px;
+}
+
+.social-buttons {
+    margin-left: -40px;
+}
+
+.social-buttons li {
+    display: inline;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.social-buttons li a {
+    color: white !important;
+}
+    /* } LEFT-MENU */
+
+#background {
+    position: relative;
+    margin-top: 50px;
+}
+
+#background img {
+    width: 100%;
+    filter: brightness(50%);
+    -webkit-filter: brightness(70%);
+}
+/* } HEADER */
