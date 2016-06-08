@@ -1,0 +1,44 @@
+@font-face {
+	font-family: Avenir;
+	src: url('font/AvenirLTStd-Book.otf');
+}
+@font-face {
+	font-family: AvenirI;
+	src: url('font/AvenirLTStd-BookOblique.otf');
+}
+.footer {
+	text-align: center;
+	font-family: Avenir;
+	font-weight: bolder;
+}
+.container {
+	background-color: rgb(225, 225, 225);
+}
+.col-md-10 {
+	text-align: justify;
+	font-family: Avenir;
+	font-size: 23.987px;
+	color: rgb( 59, 59, 59 );
+}
+.para1 {
+	text-align: center;
+	font-family: Avenir;
+	font-weight: bolder;	
+}
+.h-title {
+	font-size: 60px;
+  	font-family: Avenir;
+ 	color: rgb( 35, 31, 32 ); 
+}
+span {
+	color : rgb(40, 129, 220);
+	font-family: AvenirI;
+}
+h4 {
+	font-weight: bolder;
+}
+.hide-email {
+	color: rgb(192, 192, 192 );
+	text-align: center;
+	font-style: italic;
+}
