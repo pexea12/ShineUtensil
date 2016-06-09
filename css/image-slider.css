@@ -1,0 +1,28 @@
+.slider-image div {
+    display: none;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider-button div {
+    position: absolute;
+    top: 40%;
+}
+
+.slider-button button {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.slider-left {
+    left: 15px;
+}
+
+.slider-right {
+    right: 15px;
+}

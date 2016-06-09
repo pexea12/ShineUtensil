@@ -257,12 +257,12 @@ nav {
 }
     /* } LEFT-MENU */
 
-#background {
+.background {
     position: relative;
     margin-top: 50px;
 }
 
-#background img {
+.background img {
     width: 100%;
     filter: brightness(70%);
     -webkit-filter: brightness(70%);
@@ -289,7 +289,7 @@ nav {
     font-size: 16px;
 }
 
-#background i {
+.background i {
     position: absolute;
     left: 0; right: 0;
     width: 5%;

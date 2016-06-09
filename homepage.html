@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/homepage.css">
+    <link rel="stylesheet" href="./css/image-slider.css">
 </head>
 
 <body>
@@ -89,9 +90,26 @@
             </ul> <!-- #main-menu -->
         </div> <!-- #left-menu -->
 
-        <div id="background">
-            <img src="./images/img22.jpg" alt="background" class="img-responsive">
-        </div> <!-- #background -->
+        <div class="slider">
+            <div class="slider-image">
+                <div class="background"><img src="./images/img22.jpg" class="img-responsive" /></div>
+                <div class="background"><img src="./images/au-header.jpg" class="img-responsive" /></div>
+                <div class="background"><img src="./images/bw-header.jpg" class="img-responsive" /></div>
+            </div> <!-- .slider-image -->
+
+            <div class="slider-button">
+                <div class="slider-left">
+                    <button class="btn btn-default" type="button">
+                        <i class="fa fa-2x fa-arrow-left"></i>
+                    </button>
+                </div>
+                <div class="slider-right">
+                    <button class="btn btn-default" type="button">
+                        <i class="fa fa-2x fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div> <!-- .slider -->
     </header>
 
 
@@ -163,6 +181,7 @@
     <script src="./js/jquery.min.js"></script>
     <script src="./js/jquery-ui.min.js"></script>
     <script src="./js/header.js"></script>
+    <script src="./js/image-slider.js"></script>
 </body>
 
 </html>
