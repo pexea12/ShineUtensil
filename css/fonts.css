@@ -24,6 +24,16 @@
 }
 
 @font-face {
+    font-family: 'AvenirLTStd-Roman';
+    src: url('../fonts/AvenirLTStd-Roman.otf');
+}
+
+@font-face {
     font-family: 'SabonLTStd-BoldItalic';
     src: url('../fonts/SabonLTStd-BoldItalic.otf');
+}
+
+@font-face {
+    font-family: 'SabonLTStd-Italic';
+    src: url('../fonts/SabonLTStd-Italic.otf');
 }

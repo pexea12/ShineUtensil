@@ -1,0 +1,39 @@
+@media screen and (min-width: 800px) {
+     #left-menu {
+        display: block;
+    }
+
+    #main {
+        padding-left: 415px !important;
+    }
+}
+
+#main {
+    margin-top: 53px;
+    padding-top: 40px;
+    padding-left: 90px;
+    margin-bottom: 50px;
+}
+
+#main h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#main h4 {
+    text-transform: none;
+    font-size: 18px;
+    font-family: "AvenirLTStd-Light", sans-serif;
+}
+
+#main .social-buttons {
+    margin-top: 20px;
+}
+
+#main .social-buttons li a {
+    color: black !important;
+}
+
+#map {
+    width: 80%;
+}

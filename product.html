@@ -27,17 +27,28 @@
 				<a href="#"><img src="./images/logo.png" alt="logo"></a>
 			</div> <!-- #logo -->
 
-			<div id="count">
-				<span class="badge">1</span>
-			</div>
+			<div id="count">1</div>
 		</nav>
 
-		<div id="add-to-cart">
-			<button type="button" class="button-color">Color &#9660;</button>
-			<button type="button" class="button-add-to-cart">Add to Cart</button>
-		</div> <!-- #add-to-cart -->
+        <div id="add-to-cart" class="toggle-bar">
+            <div class="dropup button-color">
+                <button type="button" class="btn btn-default dropdown-toggle">
+                    Color <i class="fa fa-caret-down"></i>
+                </button>
+                <ul class="menu-dropup">
+                    <li class="red"></li>
+                    <li class="blue"></li>
+                    <li class="green"></li>
+                </ul> <!-- .dropdown-menu -->
+            </div> <!-- .dropdown .button-color -->
 
-		<div id="checkout">
+            <div class="button-add-to-cart">
+                <button type="button">Add to Cart</button>
+            </div> <!-- .button-add-to-cart -->
+
+        </div> <!-- #add-to-cart -->
+
+		<div id="checkout" class="toggle-bar">
 			<ul id="list-checkout">
 				<li>
 					<a href="#" class="close">&times;</a>
@@ -46,15 +57,17 @@
 					<h4>$ 200.00</h4>
 				</li>
 			</ul> <!-- #list-checkout -->
-			<button type="button" id="button-checkout">Checkout</button>
+			<form action="./checkout.html" method="POST">
+                <button type="submit" id="button-checkout">Checkout</button>
+            </form>
 		</div> <!-- #checkout -->
 
-		<div id="left-menu">
+		<div id="left-menu" class="toggle-bar">
 			<br><hr />
 			<h3>Menu</h3>
 			<ul id="main-menu">
 				<li><a href="homepage.html">Home</a></li>
-				<li class="dropdown">
+				<li class="menu-dropdown">
 					<a href="#">Categories</a>
 					<ul class="sub-menu">
 						<li><a href="cookware.html">Cookware</a></li>
@@ -107,12 +120,25 @@
 		</div> <!-- .row -->
 
         <div class="button">
-            <button type="button" class="button-color">Color <i class="fa fa-caret-down"></i></button>
-        	<button type="button" class="button-add-to-cart">Add To Card</button>
-    	</div>
+            <div class="dropup button-color">
+                <button type="button" class="btn btn-default dropdown-toggle">
+                    Color <i class="fa fa-caret-down"></i>
+                </button>
+                <ul class="menu-dropup">
+                    <li class="red"></li>
+                    <li class="blue"></li>
+                    <li class="green"></li>
+                </ul> <!-- .dropdown-menu -->
+            </div> <!-- .dropdown .button-color -->
+
+            <div class="button-add-to-cart">
+                <button type="button">Add to Cart</button>
+            </div> <!-- .button-add-to-cart -->
+    	</div> <!-- .button -->
 	</div> <!-- .container #main -->
 
 	<script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
     <script src="./js/header.js"></script>
 </body>

@@ -29,4 +29,9 @@
     font-size: 12px;
     margin-top: 11px;
 }
+
+#list img:hover {
+    filter: brightness(60%);
+    -webkit-filter: brightness(60%);
+}
 /* } LIST */

@@ -45,6 +45,10 @@ p {
     text-align: right;
 }
 
+.button div {
+    width: 140px;
+    display: inline-block;
+}
 .button button {
     height: 60px;
     letter-spacing: 2px;
@@ -52,7 +56,7 @@ p {
     font-size: 12px !important;
     text-transform: uppercase;
     border: none;
-    width: 140px;
+    width: 100%;
     background-color: white;
 }
 

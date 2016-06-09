@@ -2,35 +2,6 @@
     display: block;
 }
 
-#header-text {
-    position: absolute;
-    margin: auto;
-    top: 0; left: 0; bottom: 0; right: 0;
-    color: white;
-    text-align: center;
-    width: 60%;
-    height: 40%;
-}
-
-#header-text h1 {
-    font-family: "SabonLTStd-BoldItalic", sans-serif;
-    font-size: 50px;
-}
-
-#header-text p {
-    font-family: "AvenirLTStd-Heavy", sans-serif;
-    text-transform: none;
-    font-size: 16px;
-}
-
-#background i {
-    position: absolute;
-    left: 0; right: 0;
-    width: 5%;
-    bottom: 3%;
-    margin: auto;
-    color: white;
-}
 
 #list > div {
     position: relative;
@@ -48,6 +19,16 @@
     z-index: 1;
     bottom: 0;
     right: 10%;
+}
+
+#list img {
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+}
+
+#list img:hover {
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
 }
 
 @media screen and (max-width: 500px) {

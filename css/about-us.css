@@ -1,0 +1,25 @@
+#list {
+    text-transform: none;
+    padding-top: 50px;
+}
+
+#list h1 {
+    font-size: 40px;
+    font-family: 'AvenirLTStd-Roman', sans-serif;
+}
+
+#list p {
+    margin-top: 25px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#list span {
+    font-family: 'SabonLTStd-Italic', sans-serif;
+    font-size: 20px;
+    color: rgb(40, 129, 220);
+}
+
+.switch {
+    bottom: -50% !important;
+}
