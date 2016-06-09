@@ -62,4 +62,16 @@ $(document).ready(function() {
         event.stopPropagation();
         $(this).siblings('ul').slideToggle();
     });
+
+    // search box in menu
+    $('#left-menu').click(function() {
+        if (!$(event.target).is('input'))
+            $('.fa-search').hide();
+    });
+
+    $('.menu-search input').focus(function() {
+        event.stopPropagation();
+        $(this).siblings('.fa-search').slideDown();
+    });
+
 });

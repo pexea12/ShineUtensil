@@ -194,14 +194,30 @@ nav {
 #left-menu {
     background-color: black;
     padding-left: 40px;
+    display: block !important;
 }
 
-#left-menu hr {
-    margin-top: 60px;
-    border-color: white;
-    width: 170px;
+#left-menu .menu-search {
+    position: relative;
+    margin-top: 40px;
     margin-bottom: 40px;
-    margin-left: 0px;
+}
+
+#left-menu .menu-search input {
+    background-color: black;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid white;
+    width: 200px;
+    height: 30px;
+    padding-left: 30px;
+    color: white;
+}
+
+#left-menu i {
+    color: white;
+    position: absolute;
+    display: none;
 }
 
 #left-menu h3 {
