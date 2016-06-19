@@ -44,7 +44,9 @@
             </div> <!-- .dropdown .button-color -->
 
             <div class="button-add-to-cart">
-                <button type="button">Add to Cart</button>
+				<form action="./checkout.html" method="POST">
+					<button type="submit">Add to Cart</button>
+				</form>
             </div> <!-- .button-add-to-cart -->
 
         </div> <!-- #add-to-cart -->
@@ -58,14 +60,13 @@
                     <h4>$ 200.00</h4>
                 </li>
             </ul> <!-- #list-checkout -->
-            <form action="./checkout.html" method="POST">
-                <button type="submit" id="button-checkout">Checkout</button>
-            </form>
+			<button type="button" id="button-checkout">Checkout</button>
+
         </div> <!-- #checkout -->
 
         <div id="left-menu" class="toggle-bar">
             <div class="menu-search">
-                <i class="fa fa-search fa-2x"></i>
+                <img src="./images/btn-search.png" alt="Search" class="btn-search img-responsive"/>
                 <input type="text" class="form-control" />
             </div> <!-- .menu-search -->
             <h3>Menu</h3>

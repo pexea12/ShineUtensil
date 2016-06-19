@@ -37,3 +37,13 @@
     font-family: 'SabonLTStd-Italic';
     src: url('../fonts/SabonLTStd-Italic.otf');
 }
+
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('../fonts/MYRIADPRO-REGULAR.OTF');
+}
+
+@font-face {
+    font-family: 'AvenirLTStd-Black';
+    src: url('../fonts/AvenirLTStd-Black.otf');
+}

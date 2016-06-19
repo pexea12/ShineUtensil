@@ -194,7 +194,6 @@ nav {
 #left-menu {
     background-color: black;
     padding-left: 40px;
-    display: block !important;
 }
 
 #left-menu .menu-search {
@@ -210,13 +209,14 @@ nav {
     border-bottom: 1px solid white;
     width: 200px;
     height: 30px;
-    padding-left: 30px;
+    padding-left: 40px;
     color: white;
 }
 
-#left-menu i {
-    color: white;
+.menu-search .btn-search {
     position: absolute;
+    width: 30px;
+    height: 30px;
     display: none;
 }
 

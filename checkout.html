@@ -5,14 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Flatware</title>
+    <title>Checkout</title>
 
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/ware.css">
+    <link rel="stylesheet" href="./css/checkout.css">
 </head>
 
 <body>
@@ -72,13 +72,13 @@
             <h3>Menu</h3>
             <ul id="main-menu">
                 <li><a href="homepage.html">Home</a></li>
-                <li class="menu-dropdown active">
-                    <a href="#"><i class="fa fa-caret-down"></i> Categories</a>
+                <li class="menu-dropdown">
+                    <a href="#">Categories</a>
                     <ul class="sub-menu">
                         <li><a href="cookware.html">Cookware</a></li>
                         <li><a href="bakeware.html">Bakeware</a></li>
                         <li><a href="kitchenware.html">Kitchenware</a></li>
-                        <li class="active"><a href="#">Flatware</a></li>
+                        <li><a href="flatware.html">Flatware</a></li>
                     </ul>
                 </li> <!-- .dropdown -->
                 <li><a href="about-us.html">About Us</a></li>
@@ -94,44 +94,79 @@
         </div> <!-- #left-menu -->
 
         <div class="background">
-            <img src="./images/fw-header.jpg" alt="background" class="img-responsive">
-            <div id="header-text">
-                <h1>Flatware</h1>
-                <p>Perfect for casual or elegant entertaining. Each simply-styled stainless server has a smooth, substantial handle and beautiful mirror finish.</p>
-            </div> <!-- #header-text -->
+            <img src="./images/co-header.jpg" alt="background" class="img-responsive">
+
             <i class="fa fa-5x fa-caret-down switch"></i>
         </div> <!-- #background -->
     </header>
 
-
-
-    <div class="container">
-        <div id="list" class="row">
-            <div class="col-md-4 col-sm-4 col-xs-6">
-                <img src="./images/fw-formalflatware.jpg" alt="Formal Flatware" class="img-responsive">
-                <h5>Formal Flatware</h5>
-            </div>
-            <div class="col-md-4 col-sm-4 col-xs-6">
-                <img src="./images/fw-casualflatware.jpg" alt="Casual Flatware" class="img-responsive">
-                <h5>Casual Flatware</h5>
-            </div>
-            <div class="col-md-4 col-sm-4 col-xs-6">
-                <img src="./images/fw-childandbaby.jpg" alt="Child Baby" class="img-responsive">
-                <h5>Child & Baby</h5>
-            </div>
-            <div class="col-md-4 col-sm-4 col-xs-6">
-                <img src="./images/fw-flatwarestorage.jpg" alt="Flatware Storage" class="img-responsive">
-                <h5>Flatware Storage</h5>
-            </div>
-            <div class="col-md-4 col-sm-4 col-xs-6">
-                <img src="./images/fw-steakknife.jpg" alt="Steak Knife" class="img-responsive">
-                <h5>Steak Knife</h5>
-            </div>
-            <div class="col-md-4 col-sm-4 col-xs-6">
-                <img src="./images/fw-buffetset.jpg" alt="Buffet Set" class="img-responsive">
-                <h5>Buffet Set</h5>
-            </div>
-        </div>
+    <div class="container" id="list">
+        <h2>Billing Information</h2>
+        <div id="form-checkout" class="row">
+            <form role="form">
+                <div class="col-sm-6 col-xs-12 form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" id="first-name">
+                </div>
+                <div class="col-sm-6 col-xs-12 form-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text"  name="last-name" id="last-name">
+                </div>
+                <div class="col-sm-6 col-xs-12 form-group">
+                    <label for="company">Company</label>
+                    <input type="text"  name="company" id="company">
+                </div>
+                <div class="col-sm-6 col-xs-12 form-group">
+                    <label for="email">Email</label>
+                    <input type="text"  name="email" id="email">
+                </div>
+                <div class="col-xs-12 form-group">
+                    <label for="company">Company</label>
+                    <input type="text"  name="company" id="company">
+                </div>
+                <div class="col-sm-6 col-xs-12 form-group">
+                    <label for="zip-code">Zip Code</label>
+                    <input type="text"  name="zip-code" id="zip-code">
+                </div>
+                <div class="col-sm-6 col-xs-12 form-group">
+                    <label for="telephone">Telephone</label>
+                    <input type="text"  name="telephone" id="telephone">
+                </div>
+                <div class="col-xs-12 form-group checkout-payment">
+                    <div class="col-xs-12">
+                        <label for="payment-method">Payment Method</label>
+                    </div>
+                    <div class="col-xs-6">
+                        <input type="radio" name="payment-method">
+                        <img src="./images/visa.png" alt="Visa">
+                    </div>
+                    <div class="col-xs-6">
+                        <input type="radio" name="payment-method">
+                        <img src="./images/paypal.png" alt="Paypal">
+                    </div>
+                </div>
+                <div class="col-xs-12 checkout-table">
+                    <label for="your-order">Your Order</label>
+                    <table class="table">
+                        <tr>
+                            <th>Product</th>
+                            <th>Qty</th>
+                            <th>Price</th>
+                        </tr>
+                        <tr>
+                            <td>Roger</td>
+                            <td>32</td>
+                            <td>346</td>
+                        </tr>
+                    </table>
+                    <hr>
+                </div>
+                <div class="button">
+                    <h4>Total</h4>
+                    <button>Continue Payment</button>
+                </div> <!-- .button -->
+            </form>
+        </div> <!-- .form-checkout -->
     </div> <!-- .container -->
 
     <footer>

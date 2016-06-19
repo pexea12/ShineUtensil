@@ -26,6 +26,11 @@ footer {
     padding-bottom: 15px;
 }
 
+#email button {
+	margin-top: 23px;
+	margin-bottom: 23px;
+}
+
 #address, #contact {
     background-color: white;
 }

@@ -45,7 +45,9 @@
             </div> <!-- .dropdown .button-color -->
 
             <div class="button-add-to-cart">
-                <button type="button">Add to Cart</button>
+				<form action="./checkout.html" method="POST">
+					<button type="submit">Add to Cart</button>
+				</form>
             </div> <!-- .button-add-to-cart -->
 
         </div> <!-- #add-to-cart -->
@@ -59,15 +61,14 @@
                     <h4>$ 200.00</h4>
                 </li>
             </ul> <!-- #list-checkout -->
-            <form action="./checkout.html" method="POST">
-                <button type="submit" id="button-checkout">Checkout</button>
-            </form>
+			<button type="button" id="button-checkout">Checkout</button>
+
         </div> <!-- #checkout -->
 
         <div id="left-menu" class="toggle-bar">
             <div class="menu-search">
-              <i class="fa fa-search fa-2x"></i>
-              <input type="text" class="form-control" />
+                <img src="./images/btn-search.png" alt="Search" class="btn-search img-responsive"/>
+                <input type="text" class="form-control" />
             </div> <!-- .menu-search -->
             <h3>Menu</h3>
             <ul id="main-menu">
@@ -93,31 +94,31 @@
             </ul> <!-- #main-menu -->
         </div> <!-- #left-menu -->
 
-        <div class="slider">
+        <div class="slider background">
             <div class="slider-image">
-                <div class="background"><img src="./images/img22.jpg" class="img-responsive" /></div>
-                <div class="background"><img src="./images/au-header.jpg" class="img-responsive" /></div>
-                <div class="background"><img src="./images/bw-header.jpg" class="img-responsive" /></div>
+                <div class="background"><img src="./images/hp-light-header1.jpg" class="img-responsive" /></div>
+                <div class="background"><img src="./images/hp-light-header2.jpg" class="img-responsive" /></div>
+                <div class="background"><img src="./images/hp-light-header3.jpg" class="img-responsive" /></div>
             </div> <!-- .slider-image -->
 
             <div class="slider-button">
                 <div class="slider-left">
                     <button class="btn btn-default" type="button">
-                        <i class="fa fa-2x fa-arrow-left"></i>
+                        <img src="./images/btn-left.png" alt="LEFT" class="img-responsive"/>
                     </button>
                 </div>
                 <div class="slider-right">
                     <button class="btn btn-default" type="button">
-                        <i class="fa fa-2x fa-arrow-right"></i>
+                        <img src="./images/btn-right.png" alt="RIGHT" class="img-responsive" />
                     </button>
                 </div>
             </div>
-        </div> <!-- .slider -->
+			<i class="fa fa-5x fa-caret-down switch"></i>
+        </div> <!-- .slider .background -->
     </header>
 
-
-
     <div class="container">
+
         <div id="list" class="row">
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <h5>Best Seller</h5>

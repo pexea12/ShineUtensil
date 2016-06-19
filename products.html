@@ -5,14 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Flatware</title>
+    <title>Products</title>
 
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/products.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/ware.css">
 </head>
 
 <body>
@@ -72,13 +72,13 @@
             <h3>Menu</h3>
             <ul id="main-menu">
                 <li><a href="homepage.html">Home</a></li>
-                <li class="menu-dropdown active">
-                    <a href="#"><i class="fa fa-caret-down"></i> Categories</a>
+                <li class="menu-dropdown">
+                    <a href="#">Categories</a>
                     <ul class="sub-menu">
                         <li><a href="cookware.html">Cookware</a></li>
                         <li><a href="bakeware.html">Bakeware</a></li>
                         <li><a href="kitchenware.html">Kitchenware</a></li>
-                        <li class="active"><a href="#">Flatware</a></li>
+                        <li><a href="flatware.html">Flatware</a></li>
                     </ul>
                 </li> <!-- .dropdown -->
                 <li><a href="about-us.html">About Us</a></li>
@@ -94,45 +94,111 @@
         </div> <!-- #left-menu -->
 
         <div class="background">
-            <img src="./images/fw-header.jpg" alt="background" class="img-responsive">
+            <img src="./images/p-header.jpg" alt="background" class="img-responsive">
             <div id="header-text">
-                <h1>Flatware</h1>
-                <p>Perfect for casual or elegant entertaining. Each simply-styled stainless server has a smooth, substantial handle and beautiful mirror finish.</p>
+                <h1>Grill Pans</h1>
             </div> <!-- #header-text -->
             <i class="fa fa-5x fa-caret-down switch"></i>
         </div> <!-- #background -->
     </header>
 
+    <div class="filter-by">
+        <h2>Filter By</h2>
+        <div class="dropdown">
+            <button class="dropdown-toggle" type="button" data-toggle="dropdown">
+                Price <span class="fa fa-sort"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">$0.00 - $49.00</a></li>
+                <li><a href="#">$0.00 - $49.00</a></li>
+            </ul>
+        </div>
+    </div> <!-- .filter-by -->
 
+    <div class="show-products">
+        <h2>9 Products | </h2>
+        <div class="dropdown">
+            <button class="dropdown-toggle" type="button" data-toggle="dropdown">
+                Show <span class="fa fa-sort"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">3</a></li>
+                <li><a href="#">6</a></li>
+            </ul>
+        </div>
+    </div> <!-- .show-products -->
 
     <div class="container">
-        <div id="list" class="row">
+        <div class="row" id="list">
             <div class="col-md-4 col-sm-4 col-xs-6">
-                <img src="./images/fw-formalflatware.jpg" alt="Formal Flatware" class="img-responsive">
-                <h5>Formal Flatware</h5>
+                <img src="./images/p-product1.jpg" alt="Square Skillet Grill" class="img-responsive">
+                <h4>Square Skillet Grill</h5>
+				<h5>$ 195.00</h4>
+				<h6>available 6 colors</h6>
             </div>
             <div class="col-md-4 col-sm-4 col-xs-6">
-                <img src="./images/fw-casualflatware.jpg" alt="Casual Flatware" class="img-responsive">
-                <h5>Casual Flatware</h5>
+                <img src="./images/p-product2.jpg" alt="Extra Large Double Burner Grill" class="img-responsive">
+                <h4>Extra Large Double Burner Grill</h5>
+				<h5>$ 200.00</h4>
+				<h6>available 6 colors</h6>
             </div>
-            <div class="col-md-4 col-sm-4 col-xs-6">
-                <img src="./images/fw-childandbaby.jpg" alt="Child Baby" class="img-responsive">
-                <h5>Child & Baby</h5>
+			<div class="col-md-4 col-sm-4 col-xs-6">
+                <img src="./images/p-product3.jpg" alt="Nonstick Square Grill Pan" class="img-responsive">
+                <h4>Nonstick Square Grill Pan</h5>
+				<h5>$ 200.00</h4>
+				<h6>available 6 colors</h6>
             </div>
-            <div class="col-md-4 col-sm-4 col-xs-6">
-                <img src="./images/fw-flatwarestorage.jpg" alt="Flatware Storage" class="img-responsive">
-                <h5>Flatware Storage</h5>
+			<div class="col-md-4 col-sm-4 col-xs-6">
+                <img src="./images/p-product4.jpg" alt="Nonstick Square Grill Pan" class="img-responsive">
+                <h4>Nonstick Square Grill Pan</h5>
+				<h5>$ 200.00</h4>
+				<h6>available 6 colors</h6>
             </div>
-            <div class="col-md-4 col-sm-4 col-xs-6">
-                <img src="./images/fw-steakknife.jpg" alt="Steak Knife" class="img-responsive">
-                <h5>Steak Knife</h5>
+			<div class="col-md-4 col-sm-4 col-xs-6">
+                <img src="./images/p-product5.jpg" alt="Giant Reversible Grill Griddle" class="img-responsive">
+                <h4>Giant Reversible Grill / Griddle</h5>
+				<h5>$ 200.00</h4>
+				<h6>available 6 colors</h6>
             </div>
-            <div class="col-md-4 col-sm-4 col-xs-6">
-                <img src="./images/fw-buffetset.jpg" alt="Buffet Set" class="img-responsive">
-                <h5>Buffet Set</h5>
+			<div class="col-md-4 col-sm-4 col-xs-6">
+                <img src="./images/p-product6.jpg" alt="Nonstick Oval Griddle" class="img-responsive">
+                <h4>Nonstick Oval Griddle</h5>
+				<h5>$ 101.50</h4>
+				<h6>available 6 colors</h6>
             </div>
-        </div>
+			<div class="col-md-4 col-sm-4 col-xs-6">
+                <img src="./images/p-product7.jpg" alt="Nonstick Rectangular Griddle" class="img-responsive">
+                <h4>Nonstick Rectangular Griddle</h5>
+				<h5>$ 200.00</h4>
+				<h6>available 6 colors</h6>
+            </div>
+			<div class="col-md-4 col-sm-4 col-xs-6">
+                <img src="./images/p-product8.jpg" alt="Signature Oblong Skillet Gril" class="img-responsive">
+                <h4>Signature Oblong Skillet Gril</h5>
+				<h5>$ 200.00</h4>
+				<h6>available 6 colors</h6>
+            </div>
+			<div class="col-md-4 col-sm-4 col-xs-6">
+                <img src="./images/p-product1.jpg" alt="Nonstick Rectangular Griddle" class="img-responsive">
+                <h4>Nonstick Rectangular Griddle</h5>
+				<h5>$ 200.00</h4>
+				<h6>available 6 colors</h6>
+            </div>
+		</div> <!-- .row -->
     </div> <!-- .container -->
+
+    <div class="show-products">
+        <h2>9 Products | </h2>
+        <div class="dropdown">
+            <button class="dropdown-toggle" type="button" data-toggle="dropdown">
+                Show <span class="fa fa-sort"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">3</a></li>
+                <li><a href="#">6</a></li>
+            </ul>
+        </div>
+    </div> <!-- .show-products -->
 
     <footer>
         <div id="email">
@@ -158,6 +224,7 @@
 
     <script src="./js/jquery.min.js"></script>
     <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
     <script src="./js/header.js"></script>
 </body>
 
